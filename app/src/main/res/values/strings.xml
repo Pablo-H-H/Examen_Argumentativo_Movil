@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Historia</string>
+    <string name="fecha">Fecha:</string>
+    <string name="fechaejemplo">-201</string>
+</resources>
