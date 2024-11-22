@@ -6,9 +6,11 @@ import com.example.kotlin.historia.data.repositories.HistoriaRepository
 
 class ConsultarHistoriasRequirement(private val repository: HistoriaRepository) {
     fun obtenerHistoria(): List<Historia>{
-        Log.e("repository", repository.obtenerHistoria(1).toString(), )
-        return repository.obtenerHistoria(1)
-
-
+        Log.e("repository", repository.obtenerHistoria().toString(), )
+        return repository.obtenerHistoria()
+    }
+    fun filtrarHistoriaAnio(int: String): List<Historia>{
+        Log.e("repository", repository.obtenerHistoria().toString(), )
+        return repository.filtrarHistoriaAnio(int)
     }
 }

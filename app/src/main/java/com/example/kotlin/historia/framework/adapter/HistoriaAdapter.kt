@@ -14,10 +14,13 @@ class HistoriaAdapter : ListAdapter<Historia, HistoriaViewHolder>(HistoriaDiffCa
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item_historias, parent, false)
         return HistoriaViewHolder(view)
     }
-
     override fun onBindViewHolder(holder: HistoriaViewHolder, position: Int) {
         val historia = getItem(position)
         holder.bind(historia)
+
+        holder.itemView.setOnClickListener{
+
+        }
     }
 
     class HistoriaDiffCallback : DiffUtil.ItemCallback<Historia>() {

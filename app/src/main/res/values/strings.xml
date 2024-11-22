@@ -2,4 +2,9 @@
     <string name="app_name">Historia</string>
     <string name="fecha">Fecha:</string>
     <string name="fechaejemplo">-201</string>
+    <string name="descripcion">Descripcion del acontecimiento</string>
+    <string name="anio">Año</string>
+    <string name="lugar">Lugar</string>
+    <string name="lugarexemplo">Mexico</string>
+    <string name="buscar_por_anio">Buscar por Fecha o Pais</string>
 </resources>

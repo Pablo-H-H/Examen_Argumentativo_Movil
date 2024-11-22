@@ -3,11 +3,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="8dp">
+
+        <EditText
+            android:id="@+id/fechafiltro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/editar_texto_curveado"
+            android:hint="@string/buscar_por_anio"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:inputType="textPersonName"
+            android:padding="7dp"
+            android:textSize="16sp" />
 
         <ScrollView
             android:layout_width="match_parent"
