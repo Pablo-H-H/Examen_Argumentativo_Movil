@@ -7,4 +7,5 @@
     <string name="lugar">Lugar</string>
     <string name="lugarexemplo">Mexico</string>
     <string name="buscar_por_anio">Buscar por Fecha o Pais</string>
+    <string name="consultador_de_historia">Consultador de Historia</string>
 </resources>
